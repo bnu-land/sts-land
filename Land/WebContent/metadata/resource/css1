@@ -1,0 +1,14 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css1",
+        "url": "http://js.arcgis.com/3.12/esri/css/esri.css"
+    },
+    "name": "css1",
+    "designerId": "f4f63c3f-09af-474c-903d-6f56a9fed1a0"
+}

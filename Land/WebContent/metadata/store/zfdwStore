@@ -1,0 +1,42 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "zfdwStore",
+        "storeId": "zfdwStore"
+    },
+    "name": "MyArrayStore",
+    "designerId": "ecd5709e-659f-49e1-8e67-0f6b6361957b",
+    "cn": [
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name"
+            },
+            "name": "MyField10",
+            "designerId": "d71f858a-caab-4fca-99ed-95cee763b8a2"
+        },
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "getZfdw"
+            },
+            "name": "MyAjaxProxy5",
+            "designerId": "6d0dd5eb-04a1-40b7-81df-d320a2142b15"
+        }
+    ]
+}

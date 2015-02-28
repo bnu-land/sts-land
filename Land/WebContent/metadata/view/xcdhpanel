@@ -1,0 +1,835 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyBorder": true,
+        "border": false,
+        "collapseDirection": "left",
+        "collapsible": false,
+        "designer|uiInterfaceName": "default-framed",
+        "designer|userAlias": "xcdhpanel",
+        "designer|userClassName": "xcdhpanel",
+        "frame": true,
+        "height": 675,
+        "itemId": "xcgl",
+        "layout": "accordion",
+        "title": "巡查导航",
+        "titleAlign": "center",
+        "width": 300
+    },
+    "name": "xcglpanel1",
+    "designerId": "930a3780-fc5d-4331-aa54-c98219e36e86",
+    "configMeta": {
+        "bodyStyle": {
+            "bindSingle": true
+        },
+        "border": {
+            "bindDeep": true
+        }
+    },
+    "viewControllerInstanceId": "f37a6b64-be2d-46a7-99b9-e96ab0c47fe6",
+    "viewModelInstanceId": "d4fd6c83-540a-42d7-b7c7-d89d8b626321",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "title": "GPS设置"
+            },
+            "name": "MyPanel",
+            "designerId": "831e3e32-5145-4e36-874b-5c3fb9540070",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "container|align": "center",
+                        "header": false,
+                        "layout": "vbox",
+                        "title": "My Form"
+                    },
+                    "name": "MyForm4",
+                    "designerId": "e6b94235-32a3-4fff-b22a-f55a52cc323f",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "端口设置",
+                                "labelWidth": 60,
+                                "layout|flex": null
+                            },
+                            "name": "MyComboBox7",
+                            "designerId": "41a1bfbf-61d6-47d9-bd5e-38e8ecd34401"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "波 特 率",
+                                "labelWidth": 60,
+                                "layout|flex": null
+                            },
+                            "name": "MyComboBox8",
+                            "designerId": "b757a2ac-f3a3-47b9-a7ed-d54f4dd0c8d8"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "奇       偶",
+                                "labelAlign": null,
+                                "labelWidth": 60,
+                                "layout|flex": null
+                            },
+                            "name": "MyComboBox9",
+                            "designerId": "72c3579f-9d0f-4c5b-9f09-a67988ba53da"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "数 据 位",
+                                "labelAlign": null,
+                                "labelWidth": 60,
+                                "layout|flex": null
+                            },
+                            "name": "MyComboBox10",
+                            "designerId": "7c204d2a-9e5d-4b14-aadd-ca8928dddc5b"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "停 止 位",
+                                "labelAlign": null,
+                                "labelWidth": 60,
+                                "layout|flex": null
+                            },
+                            "name": "MyComboBox11",
+                            "designerId": "dfa7f006-ba80-4885-9a2d-3b705edb8e4f"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "X 便宜量",
+                                "labelWidth": 60,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField25",
+                            "designerId": "936a3de4-4c65-4d77-b2f4-d2c8678dedf2"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Y 便宜量",
+                                "labelWidth": 60,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField26",
+                            "designerId": "92d1a48b-165f-4a37-b14e-19e80ad3f6f5"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "10 0 0 0"
+                            },
+                            "name": "MyContainer4",
+                            "designerId": "f679dc87-b66e-4888-a025-a9ace476ec9c",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 10 0 10",
+                                        "text": "测试 ",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton28",
+                                    "designerId": "96392bac-b3ff-4660-b9dc-d93f67c7b60e"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 10 0 10",
+                                        "text": "保存",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton29",
+                                    "designerId": "63242207-21a3-4510-aa05-b36e2ee8184a"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "vbox",
+                "title": "GPS状态"
+            },
+            "name": "MyPanel4",
+            "designerId": "29f8616d-0dce-41cd-bd28-8efffa6577ca",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "height": 85,
+                        "layout": "vbox",
+                        "layout|flex": null,
+                        "margin": "10 10 0 10",
+                        "title": "位置"
+                    },
+                    "name": "MyFieldSet5",
+                    "designerId": "42297056-50f5-474f-b3fe-2bf03886e745",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "经度",
+                                "labelWidth": 30,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField27",
+                            "designerId": "441c05f3-463b-4d49-8dff-4fec95cfc5eb"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "纬度",
+                                "labelWidth": 30,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField29",
+                            "designerId": "4af4e03c-6a60-4aac-9a23-1abeac2f2010"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "height": 85,
+                        "layout": "vbox",
+                        "layout|flex": null,
+                        "margin": "10 10 0 10",
+                        "title": "北京时间"
+                    },
+                    "name": "MyFieldSet6",
+                    "designerId": "bd90de60-6e49-450d-afd5-031fc9eed166",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "日期",
+                                "labelWidth": 30,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField27",
+                            "designerId": "645050aa-ecb0-4dd8-ac30-0163ccb2c12a"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "时间",
+                                "labelWidth": 30,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField29",
+                            "designerId": "b6fa63a3-161d-4a41-817e-d2b0121eee3e"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 165,
+                        "layout": "vbox",
+                        "layout|flex": null,
+                        "margin": "10 10 0 10",
+                        "title": "其他"
+                    },
+                    "name": "MyFieldSet7",
+                    "designerId": "c1bd9834-da3f-47a8-86d6-c7f6347adcf8",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "自动平移",
+                                "fieldLabel": "Label",
+                                "hideLabel": true,
+                                "layout|flex": null
+                            },
+                            "name": "MyCheckbox5",
+                            "designerId": "23799d19-4267-4e22-af85-a79df485d808"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "卫星数目",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "width": 103
+                            },
+                            "name": "MyTextField29",
+                            "designerId": "82c6d044-5d49-4869-9dfd-23f6d03019d8"
+                        },
+                        {
+                            "type": "Ext.form.field.TextArea",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "GPS连接不上，硬件找不到",
+                                "fieldLabel": "设备状态",
+                                "labelWidth": 60,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextArea1",
+                            "designerId": "46a76d50-b482-4cbc-99b4-98860dfb0196"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "vbox",
+                "title": "GPS巡查"
+            },
+            "name": "MyPanel5",
+            "designerId": "d05baa66-baf6-4d07-b4a1-e558ef04859f",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "height": 75,
+                        "layout": "hbox",
+                        "layout|flex": null,
+                        "margin": "10 10 0 10",
+                        "title": "GPS信号控制"
+                    },
+                    "name": "MyFieldSet8",
+                    "designerId": "1b44abe6-da05-4c4a-9f13-72449feb1cbe",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": "0 10 0 10",
+                                "text": "开始接收信号"
+                            },
+                            "name": "MyButton30",
+                            "designerId": "aad6b30a-b402-4d03-a278-a111ed64dc2a"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": "0 10 0 10",
+                                "text": "停止接收信号"
+                            },
+                            "name": "MyButton31",
+                            "designerId": "5e684019-6a60-48ae-9dff-9ebc040ad3b5"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "container|pack": "center",
+                        "height": 73,
+                        "layout": "hbox",
+                        "layout|flex": null,
+                        "margin": "10 10 0 10",
+                        "title": "轨迹跟踪"
+                    },
+                    "name": "MyFieldSet9",
+                    "designerId": "c3ac443a-58ba-42b3-b092-936b0c2be61a",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "0 10 0 10",
+                                "text": "开始",
+                                "width": 70
+                            },
+                            "name": "MyButton32",
+                            "designerId": "5112ab18-d26e-45ac-a9a8-e52a93e5e263"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "0 10 0 10",
+                                "text": "停止",
+                                "width": 70
+                            },
+                            "name": "MyButton33",
+                            "designerId": "f19cf008-4410-4e6c-a045-7a13ad616f5c"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "0 10 0 10",
+                                "text": "目的地",
+                                "width": 70
+                            },
+                            "name": "MyButton34",
+                            "designerId": "0339142d-bb04-483e-82c8-1e4eb28a0d03"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "container|pack": "center",
+                        "height": 73,
+                        "layout": "hbox",
+                        "margin": "10 10 0 10",
+                        "title": "GPS单点绘制"
+                    },
+                    "name": "MyFieldSet12",
+                    "designerId": "9fb0e06d-5dba-48c7-8275-6c53d8c1179b",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "0 10 0 10",
+                                "text": "绘制",
+                                "width": 70
+                            },
+                            "name": "MyButton32",
+                            "designerId": "3d759863-672d-4796-b84d-f6705095c1f0"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "0 10 0 10",
+                                "text": "完成",
+                                "width": 70
+                            },
+                            "name": "MyButton33",
+                            "designerId": "17ca25c2-81a3-425c-9cab-b8d4188e16ea"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "0 10 0 10",
+                                "text": "取消",
+                                "width": 70
+                            },
+                            "name": "MyButton34",
+                            "designerId": "9a0e35d5-4a6a-48e3-87d3-a76c3d14e6f9"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "height": 99,
+                        "layout": "vbox",
+                        "margin": "10 10 0 10",
+                        "title": "GPS连续绘制",
+                        "width": 277
+                    },
+                    "name": "MyFieldSet13",
+                    "designerId": "d4b6852d-0278-4ad1-9007-8d9c47448507",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "layout": "hbox",
+                                "layout|flex": null
+                            },
+                            "name": "MyContainer6",
+                            "designerId": "4c799bca-ea83-4107-9322-463440e23b9b",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Spinner",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "取点时间间隔",
+                                        "labelWidth": 90,
+                                        "layout|flex": null,
+                                        "margin": "10 0 10 0",
+                                        "width": 166
+                                    },
+                                    "name": "MySpinnerField1",
+                                    "designerId": "c90b7b2a-a2cf-4860-af26-e48e892e9bc6"
+                                },
+                                {
+                                    "type": "Ext.form.field.Display",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null,
+                                        "margin": "0 0 0 5",
+                                        "value": " 颗",
+                                        "width": 28
+                                    },
+                                    "name": "MyDisplayField2",
+                                    "designerId": "ce93dd1d-bc0c-4fce-970f-2aef01c2f5e0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "width": 558
+                            },
+                            "name": "MyContainer5",
+                            "designerId": "3d9335d0-2020-4e16-a37e-0ac77325e483",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 10 0 0",
+                                        "text": "绘制",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton32",
+                                    "designerId": "cfd1f65e-6c86-4642-8ab8-b21331a31f08"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 10 0 10",
+                                        "text": "完成",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton33",
+                                    "designerId": "c88ce8dc-2006-446c-9ae6-81744c8a1d8c"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 10 0 10",
+                                        "text": "取消",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton34",
+                                    "designerId": "fce3784d-e9e6-464f-9db2-87df17f996e5"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "title": "行政区定位"
+            },
+            "name": "MyPanel6",
+            "designerId": "c407856b-49fb-4106-93de-df750aa9697c",
+            "cn": [
+                {
+                    "type": "Ext.tree.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "header": false,
+                        "store": "xingZhengQuStore",
+                        "title": "My Tree Panel"
+                    },
+                    "name": "MyTreePanel",
+                    "designerId": "08c70ce6-aa0b-4f07-b7bd-57d98dd75ac7",
+                    "cn": [
+                        {
+                            "type": "Ext.tree.View",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "MyTreeView",
+                            "designerId": "83350d54-83a5-464f-a610-fcdadbccad40",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onViewItemDblClick",
+                                        "implHandler": [
+                                            "if(index===0){return;}",
+                                            "alert(\"行政区编号为：\"+record.data.dm);"
+                                        ],
+                                        "name": "itemdblclick",
+                                        "scope": "me"
+                                    },
+                                    "name": "onViewItemDblClick",
+                                    "designerId": "1ffa23df-f794-4838-89cf-eb26ab90e822"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "图层控制"
+            },
+            "name": "MyPanel7",
+            "designerId": "7adefce7-b81e-49fb-a401-deca23417c8d"
+        }
+    ]
+}

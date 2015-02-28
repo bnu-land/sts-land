@@ -1,0 +1,59 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyBorder": false,
+        "border": false,
+        "collapseDirection": "left",
+        "collapsible": false,
+        "designer|uiInterfaceName": "default-framed",
+        "designer|userAlias": "help",
+        "designer|userClassName": "help",
+        "frame": true,
+        "height": 518,
+        "itemId": "",
+        "layout": "fit",
+        "title": "帮助",
+        "titleAlign": "center",
+        "width": 208
+    },
+    "name": "xzq1",
+    "designerId": "47ea590c-f1e9-4116-b19a-075f5f76cb1a",
+    "viewControllerInstanceId": "b4e31c8b-fc96-42d6-af13-6ffe170200c6",
+    "viewModelInstanceId": "ddd966ac-9073-49e6-8bab-190be6b30c56",
+    "cn": [
+        {
+            "type": "Ext.menu.Menu",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "floating": false,
+                "width": 120
+            },
+            "name": "MyMenu",
+            "designerId": "22c46076-720f-4cd5-bdb6-90b114a62490",
+            "cn": [
+                {
+                    "type": "Ext.menu.Item",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "帮助文档"
+                    },
+                    "name": "MyMenuItem",
+                    "designerId": "8f1e6fe1-96bc-459e-9a58-7a4656156afd"
+                }
+            ]
+        }
+    ]
+}

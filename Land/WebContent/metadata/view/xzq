@@ -1,0 +1,28 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyBorder": false,
+        "border": false,
+        "collapseDirection": "left",
+        "collapsible": false,
+        "designer|uiInterfaceName": "default-framed",
+        "designer|userAlias": "xzq",
+        "designer|userClassName": "xzq",
+        "frame": true,
+        "height": 629,
+        "itemId": "xcgl",
+        "layout": "accordion",
+        "title": "行政区",
+        "titleAlign": "center",
+        "width": 300
+    },
+    "name": "zfwl3",
+    "designerId": "b6f3b23d-4090-4da1-b934-341716b77d24",
+    "viewControllerInstanceId": "e2a6b03b-005e-43ed-aa1d-3d8dcc60e473",
+    "viewModelInstanceId": "a5dd899e-baef-49b5-84bd-d36589bf1e83"
+}

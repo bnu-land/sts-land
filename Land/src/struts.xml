@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GBK"?>
+<!-- 指定Struts2配置文件的DTD信息 -->
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<!-- Struts2配置文件的根元素 -->
+<struts>
+	<!-- 配置了系列常量 -->
+	<constant name="struts.custom.i18n.resources" value="resource" />
+	<constant name="struts.i18n.encoding" value="utf-8" />
+	<constant name="struts.devMode" value="true" />
+	<package name="default" extends="struts-default">
+
+
+		<!-- 定义全局Result映射 -->
+		<global-results>
+			<!-- 定义sql、root两个异常对应的视图页 -->
+			<result name="business">/WEB-INF/content/error.jsp</result>
+			<result name="root">/WEB-INF/content/error.jsp</result>
+			<!-- 定义login逻辑视图对应的视图资源 -->
+			<result name="login">/WEB-INF/content/error.jsp</result>
+		</global-results>
+
+		<!-- 定义全局异常映射 -->
+		<global-exception-mappings>
+			<!-- 当Action中遇到HrException异常时， 系统将转入name为business的结果中 -->
+			<exception-mapping exception="org.crazyit.hrsystem.exception.HrException"
+				result="business" />
+			<!-- 当Action中遇到Exception异常时， 系统将转入name为root的结果中 -->
+			<exception-mapping exception="java.lang.Exception"
+				result="root" />
+		</global-exception-mappings>
+		<action name="getUsers.action" class="GetUserAction">
+		   <result name="error">/WEB-INF/content/error.jsp</result>
+			<result>/WEB-INF/content/success.jsp</result>
+		</action>
+		
+		<!-- 经理处理申请 <action name="check" class="org.crazyit.hrsystem.action.CheckAppAction"> 
+			<interceptor-ref name="mgrStack"/> <result type="chain">viewApp</result> 
+			</action>
+		<action name="*">
+			<result>/WEB-INF/content/{1}.jsp</result>
+		</action> -->
+	</package>
+</struts>

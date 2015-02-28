@@ -1,0 +1,15 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "js",
+        "includeInBundle": true,
+        "url": "http://js.arcgis.com/3.12/init.js"
+    },
+    "name": "js",
+    "designerId": "e857a7f9-f819-4622-adb1-1997dd42f0d4"
+}

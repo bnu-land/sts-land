@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "help",
+        "designer|userClassName": "xcglpanelViewController7"
+    },
+    "name": "xcglpanelViewController7",
+    "designerId": "b4e31c8b-fc96-42d6-af13-6ffe170200c6"
+}

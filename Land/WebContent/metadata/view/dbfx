@@ -1,0 +1,709 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyBorder": false,
+        "border": false,
+        "collapseDirection": "left",
+        "collapsible": false,
+        "designer|uiInterfaceName": "default-framed",
+        "designer|userAlias": "dbfx",
+        "designer|userClassName": "dbfx",
+        "frame": true,
+        "height": 644,
+        "itemId": "xcgl",
+        "layout": "accordion",
+        "title": "对比分析",
+        "titleAlign": "center",
+        "width": 300
+    },
+    "name": "zfwl1",
+    "designerId": "1cb60561-62b3-4510-a35b-a2fe7cbc5ddf",
+    "viewControllerInstanceId": "72aa9309-49c5-49b9-a8f3-e05b53c20b37",
+    "viewModelInstanceId": "3ec81313-a1c0-469c-8351-fd63cba278e1",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "title": "不同地区比较"
+            },
+            "name": "MyPanel",
+            "designerId": "de2979ed-3b04-41e0-a892-e23e442e4f63",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "container|align": "center",
+                        "header": false,
+                        "layout": "vbox",
+                        "title": "My Form"
+                    },
+                    "name": "MyForm2",
+                    "designerId": "20bee209-7b86-4c33-894f-66198c020c46",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "2008年",
+                                "fieldLabel": "年度索引",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0",
+                                "width": 234
+                            },
+                            "name": "MyComboBox4",
+                            "designerId": "fe615eb4-c9a2-4089-9b0d-7d1f6e2c6b5a"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "全部",
+                                "fieldLabel": "核查来院",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox5",
+                            "designerId": "9a62a502-8961-4bca-866f-9ee894442769"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "辽宁省",
+                                "fieldLabel": "地区索引",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox6",
+                            "designerId": "6d6dc2ed-8b1e-4ff2-8d51-1dad168dca4a"
+                        },
+                        {
+                            "type": "Ext.form.CheckboxGroup",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label",
+                                "hideLabel": true,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0",
+                                "width": 186
+                            },
+                            "name": "MyCheckboxGroup",
+                            "designerId": "ea97fa40-3113-4eb1-9c53-52e50218bdfc",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "违法用地",
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyCheckbox",
+                                    "designerId": "321e85d7-fe17-4912-849f-eeaae1edd67d"
+                                },
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "实地伪变化",
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyCheckbox1",
+                                    "designerId": "7d1d5b3b-d63e-4957-be81-18439ab33494"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.form.CheckboxGroup",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label",
+                                "hideLabel": true,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0",
+                                "width": 186
+                            },
+                            "name": "MyCheckboxGroup1",
+                            "designerId": "58623011-bd82-4694-960a-f6cafd4b92c1",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "违法用地",
+                                        "fieldLabel": null
+                                    },
+                                    "name": "MyCheckbox",
+                                    "designerId": "b6870ff2-36cb-4c90-abc3-aeec9d58bc91"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": 10,
+                                "text": "确定",
+                                "width": 90
+                            },
+                            "name": "MyButton11",
+                            "designerId": "d95bed3b-1333-407a-b055-b26d0fd89eb3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "title": "同区类型比较"
+            },
+            "name": "MyPanel4",
+            "designerId": "9e02a56c-c015-4789-805a-872eebdc0308",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "container|align": "center",
+                        "header": false,
+                        "layout": "vbox",
+                        "title": "My Form"
+                    },
+                    "name": "MyForm3",
+                    "designerId": "4a675781-40b0-44b1-97f0-9103cf7ca35c",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "2008年",
+                                "fieldLabel": "年度索引",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox7",
+                            "designerId": "4d58defb-5f59-4295-ae43-4ae1a115ec31"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "全部",
+                                "fieldLabel": "核查来源",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox8",
+                            "designerId": "4ada2a30-af06-493a-8586-8f3a104b0e99"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "辽宁省",
+                                "fieldLabel": "地区索引",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox9",
+                            "designerId": "e87a0928-244d-4230-9456-cd2486346fa2"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": 10,
+                                "text": "确定",
+                                "width": 90
+                            },
+                            "name": "MyButton12",
+                            "designerId": "9b43cfb0-288a-44c8-96da-1a74a37f961f"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "title": "区域年度比较"
+            },
+            "name": "MyPanel5",
+            "designerId": "0446368a-4199-4168-8d61-8fe4c42f5b0e",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "container|align": "center",
+                        "header": false,
+                        "layout": "vbox",
+                        "title": "My Form"
+                    },
+                    "name": "MyForm4",
+                    "designerId": "01e3159d-3f51-4bb9-b50d-b0efd4680fcb",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "2008年",
+                                "fieldLabel": "核查来源",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox7",
+                            "designerId": "fc4b1ee9-ee54-417b-bb46-985436fa9c93"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "0 0 0 0",
+                                "width": 235
+                            },
+                            "name": "MyContainer",
+                            "designerId": "2772a8ff-aca4-44e2-8e6a-d4a0124917b8",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Display",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null,
+                                        "value": "年度索引"
+                                    },
+                                    "name": "MyDisplayField1",
+                                    "designerId": "ac0884bc-2fb9-4da5-9335-2b6ef09c19f6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "10 0 10 0",
+                                "width": 234
+                            },
+                            "name": "MyContainer1",
+                            "designerId": "8eb2622e-cfce-4bb5-bc88-c726a3aacb13",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "emptyText": "全部",
+                                        "fieldLabel": "年度索引",
+                                        "height": "",
+                                        "hideLabel": true,
+                                        "labelWidth": 60,
+                                        "layout|flex": null,
+                                        "margin": "",
+                                        "width": 100
+                                    },
+                                    "name": "MyComboBox8",
+                                    "designerId": "4cb46d55-ec58-4e92-84e4-301c9f4b1c0f"
+                                },
+                                {
+                                    "type": "Ext.form.field.Display",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "至",
+                                        "height": 20,
+                                        "hideLabel": true,
+                                        "labelAlign": "top",
+                                        "layout|flex": null,
+                                        "margin": "0 5 0 5",
+                                        "value": "至"
+                                    },
+                                    "name": "MyDisplayField",
+                                    "designerId": "bc413287-aa07-4439-9182-88096edee316"
+                                },
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "emptyText": "全部",
+                                        "fieldLabel": "年度索引",
+                                        "height": "",
+                                        "hideLabel": true,
+                                        "labelWidth": 60,
+                                        "layout|flex": null,
+                                        "margin": "",
+                                        "width": 100
+                                    },
+                                    "name": "MyComboBox11",
+                                    "designerId": "6c1dee68-37e1-4377-9609-1a51789fb22c"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "辽宁省",
+                                "fieldLabel": "地区索引",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox9",
+                            "designerId": "3be70798-9975-46ff-b699-784824c8ed56"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": 20,
+                                "text": "确定",
+                                "width": 90
+                            },
+                            "name": "MyButton12",
+                            "designerId": "dba0bab5-79ab-4cda-a407-0f6288a63351"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "title": "图形对比分析"
+            },
+            "name": "MyPanel6",
+            "designerId": "4c0999a2-1e60-4534-882b-fe8fa0051737",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "container|align": "center",
+                        "header": false,
+                        "layout": "vbox",
+                        "title": "My Form"
+                    },
+                    "name": "MyForm1",
+                    "designerId": "c6babce7-2ed8-48ac-948a-e5a83fca6f71",
+                    "cn": [
+                        {
+                            "type": "Ext.form.RadioGroup",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label",
+                                "hideLabel": true,
+                                "layout|flex": null,
+                                "margin": "20 0 010 0",
+                                "width": 194
+                            },
+                            "name": "MyRadioGroup1",
+                            "designerId": "07b3b828-c4e5-4b03-867c-5eeb01df0afe",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "两图对比",
+                                        "fieldLabel": null,
+                                        "name": "duibiRadio"
+                                    },
+                                    "name": "MyRadio2",
+                                    "designerId": "76ba0ae7-316f-48fd-9805-0d9ecbb175f2",
+                                    "cn": [
+                                        {
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onRadiofieldChange",
+                                                "implHandler": [
+                                                    "var graph3=Ext.getCmp(\"graph3\");",
+                                                    "var graph4=Ext.getCmp(\"graph4\");",
+                                                    "",
+                                                    "     graph3.editable=newValue;",
+                                                    "graph4.editable=newValue;",
+                                                    "",
+                                                    ""
+                                                ],
+                                                "name": "change",
+                                                "scope": "me"
+                                            },
+                                            "name": "onRadiofieldChange",
+                                            "designerId": "909acf75-efea-46ac-b708-fd69cc595300"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.form.field.Radio",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "四图对比",
+                                        "fieldLabel": null,
+                                        "name": "duibiRadio"
+                                    },
+                                    "name": "MyRadio3",
+                                    "designerId": "27cc79ee-30b8-4b46-90d7-5da2357407d3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "土地利用现状图",
+                                "fieldLabel": "第一幅图",
+                                "id": "graph1",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox",
+                            "designerId": "b4cb60cc-81da-4689-955c-1c56bd4b3a4f"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "土地利用规划图",
+                                "fieldLabel": "第二幅图",
+                                "id": "graph2",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox1",
+                            "designerId": "396cacbb-f4f9-4845-b6ad-c6d14ee18251"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "基本农田图",
+                                "fieldLabel": "第三幅图",
+                                "id": "graph3",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox2",
+                            "designerId": "7cad28a3-6931-493c-8f17-fa317c484408"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "建设用地审批图",
+                                "fieldLabel": "第四幅图",
+                                "id": "graph4",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 10 0"
+                            },
+                            "name": "MyComboBox3",
+                            "designerId": "ff11db5d-d49e-4c73-9f9a-f71018c22200"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "10 0 0 0",
+                                "text": "确定",
+                                "width": 90
+                            },
+                            "name": "MyButton10",
+                            "designerId": "d004fe7e-3ae6-443b-bbdf-d03f94006a7a"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

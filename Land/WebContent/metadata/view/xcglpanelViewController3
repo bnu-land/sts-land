@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "dbfx",
+        "designer|userClassName": "xcglpanelViewController3"
+    },
+    "name": "xcglpanelViewController3",
+    "designerId": "72aa9309-49c5-49b9-a8f3-e05b53c20b37"
+}

@@ -1,0 +1,1240 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyBorder": false,
+        "border": false,
+        "collapseDirection": "left",
+        "collapsible": false,
+        "designer|uiInterfaceName": "default-framed",
+        "designer|userAlias": "zfwl",
+        "designer|userClassName": "zfwl",
+        "frame": true,
+        "height": 619,
+        "itemId": "xcgl",
+        "layout": "accordion",
+        "title": "执法网络",
+        "titleAlign": "center",
+        "width": 300
+    },
+    "name": "xcglpanel2",
+    "designerId": "a74ca6f9-999c-4e43-8f29-499faf9928cf",
+    "viewControllerInstanceId": "cd75491e-3a60-42bb-86e7-047e768c703e",
+    "viewModelInstanceId": "eed55a38-4444-4792-9fd8-5b3d6ee13efe",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "title": "网络查询"
+            },
+            "name": "MyPanel",
+            "designerId": "eacbb1fc-0a4c-4ec9-9337-5c0bcceafa11",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "container|align": "stretch",
+                        "header": false,
+                        "layout": "vbox",
+                        "title": "My Form"
+                    },
+                    "name": "MyForm5",
+                    "designerId": "0433b925-e911-42a1-80ec-98ce6112876e",
+                    "cn": [
+                        {
+                            "type": "Ext.form.FieldSet",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "center",
+                                "height": 136,
+                                "layout": "vbox",
+                                "layout|flex": null,
+                                "title": "根据行政区查询",
+                                "width": 282
+                            },
+                            "name": "MyFieldSet14",
+                            "designerId": "56f89ad2-3c0d-45ca-95c1-35cb8e69cfcc",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "行政区",
+                                        "labelWidth": 50,
+                                        "layout|flex": null,
+                                        "margin": "10 0 0 0",
+                                        "width": 186
+                                    },
+                                    "name": "MyComboBox12",
+                                    "designerId": "5750201f-02dd-4939-b25b-95e6fb651977"
+                                },
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "包含下级行政区",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null,
+                                        "margin": "10 0 0 0"
+                                    },
+                                    "name": "MyCheckbox6",
+                                    "designerId": "708b0040-94e1-4e6c-97d7-be68e6e4f11c"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "10 0 0 0",
+                                        "text": "确定",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton35",
+                                    "designerId": "78193aa1-e2ec-4a1d-88cb-2dc515d5cbcf"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.form.FieldSet",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "center",
+                                "height": 156,
+                                "layout": "vbox",
+                                "layout|flex": null,
+                                "title": "根据人员查询",
+                                "width": 282
+                            },
+                            "name": "MyFieldSet15",
+                            "designerId": "020904ea-ac0d-4dfc-8a46-52094bc8a285",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "人员姓名",
+                                        "labelWidth": 60,
+                                        "layout|flex": null,
+                                        "margin": "10 0 0 0",
+                                        "width": 186
+                                    },
+                                    "name": "MyComboBox12",
+                                    "designerId": "49f01fbf-bffc-4ee6-80e1-ba8a4de141b0"
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "middle",
+                                        "container|pack": "center",
+                                        "layout": "hbox",
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyContainer7",
+                                    "designerId": "8a721f4d-d4a5-4334-9fe6-43f55438855d",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.form.RadioGroup",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fieldLabel": "Label",
+                                                "hideLabel": true,
+                                                "layout|flex": null,
+                                                "margin": "20 0 0 0",
+                                                "width": 180
+                                            },
+                                            "name": "MyRadioGroup",
+                                            "designerId": "320e32ae-b251-4c30-99cb-83a9152ccdb7",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.form.field.Radio",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "boxLabel": "模糊查询",
+                                                        "fieldLabel": null,
+                                                        "name": "queryCondition"
+                                                    },
+                                                    "name": "MyRadio",
+                                                    "designerId": "42f07a50-1221-430c-b477-225312db44a2"
+                                                },
+                                                {
+                                                    "type": "Ext.form.field.Radio",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "boxLabel": "精确查询",
+                                                        "fieldLabel": null,
+                                                        "name": "queryCondition"
+                                                    },
+                                                    "name": "MyRadio1",
+                                                    "designerId": "36368019-f58c-4f04-b979-b44236b02239"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "10 0 0 0",
+                                        "text": "确定",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton35",
+                                    "designerId": "c1cad439-41a8-474c-9b7a-f0480991003e"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "vbox",
+                "title": "历史网络查询"
+            },
+            "name": "MyPanel4",
+            "designerId": "43c593c1-ed49-483b-9299-6fab9063486b",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "height": 136,
+                        "layout": "vbox",
+                        "layout|flex": null,
+                        "margin": 10,
+                        "title": "根据行政区查询",
+                        "width": 282
+                    },
+                    "name": "MyFieldSet16",
+                    "designerId": "85bd54db-2f02-4a12-9b73-86de10753162",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "行政区",
+                                "labelWidth": 50,
+                                "layout|flex": null,
+                                "margin": "10 0 0 0",
+                                "width": 186
+                            },
+                            "name": "MyComboBox12",
+                            "designerId": "11bfbac9-d1cf-44de-a633-4e53bbbbede2"
+                        },
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "boxLabel": "包含下级行政区",
+                                "fieldLabel": "Label",
+                                "hideLabel": true,
+                                "layout|flex": null,
+                                "margin": "10 0 0 0"
+                            },
+                            "name": "MyCheckbox6",
+                            "designerId": "3c975fae-65d8-44da-966d-07e74a629db5"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "10 0 0 0",
+                                "text": "确定",
+                                "width": 70
+                            },
+                            "name": "MyButton35",
+                            "designerId": "68cc7389-7340-43f7-bad4-a17638677eaf"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "height": 118,
+                        "layout": "vbox",
+                        "layout|flex": null,
+                        "margin": 10,
+                        "title": "根据人员查询",
+                        "width": 282
+                    },
+                    "name": "MyFieldSet17",
+                    "designerId": "e5a1bbd2-ded8-409a-a3a3-ae8aa68fb96f",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "人员姓名",
+                                "labelWidth": 60,
+                                "layout|flex": null,
+                                "margin": "10 0 0 0",
+                                "width": 186
+                            },
+                            "name": "MyComboBox12",
+                            "designerId": "476e02de-8a97-41d1-b86f-9b08ff926336"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "layout|flex": null
+                            },
+                            "name": "MyContainer7",
+                            "designerId": "95aed28a-172a-4538-82c4-c15a4d8ec9ff"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "20 0 0 0",
+                                "text": "确定",
+                                "width": 70
+                            },
+                            "name": "MyButton35",
+                            "designerId": "a0418cd4-9105-44c2-8413-b76989316565"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "title": "执法单位管理"
+            },
+            "name": "MyPanel5",
+            "designerId": "d0f524d3-d25e-446f-9c6d-716a8e17ffa9",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "container|align": "center",
+                        "header": false,
+                        "layout": "vbox",
+                        "title": "My Form"
+                    },
+                    "name": "MyForm6",
+                    "designerId": "52d25a70-8d4b-462f-a6ed-8f881946bc20",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "所属行政区",
+                                "labelWidth": 70,
+                                "layout|flex": null,
+                                "margin": 20,
+                                "width": 190
+                            },
+                            "name": "MyComboBox13",
+                            "designerId": "763bc191-c89a-4dc0-9192-6ee6ab6d4e5e"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "执法单位",
+                                "labelWidth": 70,
+                                "layout|flex": null,
+                                "margin": 0,
+                                "width": 190
+                            },
+                            "name": "MyComboBox14",
+                            "designerId": "48d42053-a16a-48f1-bea7-db79abf1e326"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": 20
+                            },
+                            "name": "MyContainer8",
+                            "designerId": "31d5bc2b-47b5-4040-aa69-69b264d28044",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": 1,
+                                        "margin": "0 20",
+                                        "text": "查询",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton36",
+                                    "designerId": "d22db34b-f79b-482c-880a-65bb350e2afb"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": 1,
+                                        "text": "查询",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton37",
+                                    "designerId": "ce7feb86-0954-48b0-b22b-fe7a86cd9134"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "fit",
+                "title": "执法人员管理"
+            },
+            "name": "MyPanel6",
+            "designerId": "d6653d05-8ed5-4d3c-9570-84380033b8b6",
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "container|align": "stretch",
+                        "header": false,
+                        "layout": "vbox",
+                        "title": "My Form"
+                    },
+                    "name": "MyForm7",
+                    "designerId": "c784d2e0-c123-432f-b967-524d2d637c08",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "所属行政区",
+                                "labelWidth": 83,
+                                "layout|flex": null,
+                                "margin": "10 0 5 0",
+                                "width": 220
+                            },
+                            "name": "MyComboBox15",
+                            "designerId": "bbad7632-041b-48ec-9a67-c2fd714f077e"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "5 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer4",
+                            "designerId": "b4456fc1-54bf-4205-9d94-cdd7cf53de51",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "执法人员：",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyCheckbox8",
+                                    "designerId": "6c9f5f79-255e-42e6-ba62-9a8e313833d9"
+                                },
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": 1,
+                                        "margin": "0 0 0 5",
+                                        "width": 134
+                                    },
+                                    "name": "MyComboBox16",
+                                    "designerId": "37599f2c-8f32-4904-8091-abe41e8517cf"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "5 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer5",
+                            "designerId": "d5a255d4-5243-4e23-a16a-7da7fed3bf84",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "上岗证号：",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyCheckbox8",
+                                    "designerId": "449fdc9a-fb59-4286-b0a1-798b84592627"
+                                },
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": 1,
+                                        "margin": "0 0 0 5",
+                                        "width": 134
+                                    },
+                                    "name": "MyComboBox16",
+                                    "designerId": "0a03120d-a7f4-4b76-9c40-9db097bee622"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "5 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer6",
+                            "designerId": "3b567103-20d7-4119-a337-c9081fe75257",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "移动手机：",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyCheckbox8",
+                                    "designerId": "f303deab-c779-44dd-9087-275641a3097c"
+                                },
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": 1,
+                                        "margin": "0 0 0 5",
+                                        "width": 134
+                                    },
+                                    "name": "MyComboBox16",
+                                    "designerId": "b76743bc-e707-4667-a2a2-30a35b32c3fb"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "5 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer9",
+                            "designerId": "2c8c5f73-5993-4d2b-b55c-aa035e6262d7",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "办公电哈：",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyCheckbox8",
+                                    "designerId": "c6aadd95-11eb-4bbf-9371-64660c917e14"
+                                },
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": 1,
+                                        "margin": "0 0 0 5",
+                                        "width": 134
+                                    },
+                                    "name": "MyComboBox16",
+                                    "designerId": "a79f51d6-7c48-4154-bde0-b2a84641c8c9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "5 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer10",
+                            "designerId": "f7f7ed73-8810-4cd3-80ba-f87d6f931620",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "内部小号：",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyCheckbox8",
+                                    "designerId": "f8ec77ff-a122-48e7-b40e-ed3165e7adb0"
+                                },
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": 1,
+                                        "margin": "0 0 0 5",
+                                        "width": 134
+                                    },
+                                    "name": "MyComboBox16",
+                                    "designerId": "2e2d9c37-eae0-4f37-bc30-588a206c9173"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "20 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer11",
+                            "designerId": "74f506ec-1c5c-4ffb-878a-6bd4ada8da80",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 20 0 0",
+                                        "text": "查询",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton4",
+                                    "designerId": "3cfe9516-d23b-4c11-b77f-fabf56482a7d"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 20 0 0",
+                                        "text": "编辑",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton9",
+                                    "designerId": "e0eab303-ed40-4056-a5be-048f93a9c7dd"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyBorder": true,
+                "designer|uiInterfaceName": "default-framed",
+                "frame": true,
+                "layout": "fit",
+                "title": "执法网络管理"
+            },
+            "name": "MyPanel7",
+            "configAlternates": {
+                "bodyStyle": "binding",
+                "border": "binding"
+            },
+            "designerId": "1697abcf-3ec8-49cd-9aca-5debd6a715b8",
+            "configMeta": {
+                "bodyStyle": {
+                    "bindDeep": true,
+                    "bindSingle": true
+                }
+            },
+            "cn": [
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "bodyPadding": 10,
+                        "container|align": "stretch",
+                        "header": false,
+                        "layout": "vbox",
+                        "title": "My Form"
+                    },
+                    "name": "MyForm",
+                    "designerId": "317d94d6-a341-4abe-9cf2-6f16adbe9d15",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "5 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer2",
+                            "designerId": "c483beec-b1be-441b-af17-41c199a38f65",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "地区",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyCheckbox8",
+                                    "designerId": "d0cf09d8-cc5e-4f5a-9d97-d9f09dd805e6"
+                                },
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": 1,
+                                        "margin": "0 0 0 5",
+                                        "width": 134
+                                    },
+                                    "name": "MyComboBox16",
+                                    "designerId": "c4df93b0-8e37-43a1-918e-46b9ceaeb04c"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "5 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer4",
+                            "designerId": "2e7b541b-f6a6-4254-ac91-6de8b179e678",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "区县",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyCheckbox8",
+                                    "designerId": "997533c6-4ac7-44b0-82d6-662d042bd46d"
+                                },
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": 1,
+                                        "margin": "0 0 0 5",
+                                        "width": 134
+                                    },
+                                    "name": "MyComboBox16",
+                                    "designerId": "033ae585-0a20-435e-a73c-99591a7cc31e"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "5 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer5",
+                            "designerId": "c452d66d-468d-40d4-91f1-4b775df90c3e",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "乡镇",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyCheckbox8",
+                                    "designerId": "20c81722-cfa1-45e7-9109-5c7f6377823f"
+                                },
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": 1,
+                                        "margin": "0 0 0 5",
+                                        "width": 134
+                                    },
+                                    "name": "MyComboBox16",
+                                    "designerId": "1f497dfd-c219-4ee0-a1bd-a7b1725dba11"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "5 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer6",
+                            "designerId": "b74a0995-66bf-4e74-8e59-eb593345a683",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "村庄",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyCheckbox8",
+                                    "designerId": "1e5e3925-83d1-43c8-9251-7cf6fd36b489"
+                                },
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": 1,
+                                        "margin": "0 0 0 5",
+                                        "width": 134
+                                    },
+                                    "name": "MyComboBox16",
+                                    "designerId": "0a28a344-2d31-459b-82cd-9988e9c252bc"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "5 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer9",
+                            "designerId": "ced86d71-e645-4e45-82e6-4c5b5a0951f1",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Checkbox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "boxLabel": "已指定负责人",
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "layout|flex": null
+                                    },
+                                    "name": "MyCheckbox8",
+                                    "designerId": "c48dd2b3-caa5-4218-ae56-9e77bda790b2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "layout|flex": null,
+                                "margin": "20 0 5 0",
+                                "width": 280
+                            },
+                            "name": "MyContainer11",
+                            "designerId": "deb2b98e-cfba-4510-95ee-50d15d0a137f",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 20 0 0",
+                                        "text": "查询",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton4",
+                                    "designerId": "e453bcd5-23ae-494c-adf0-36c6811a020f"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 20 0 0",
+                                        "text": "编辑",
+                                        "width": 70
+                                    },
+                                    "name": "MyButton9",
+                                    "designerId": "8462265e-c7dc-4fd1-bbaf-d8743f62b972"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

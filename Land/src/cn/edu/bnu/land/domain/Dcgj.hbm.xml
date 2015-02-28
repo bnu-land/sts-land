@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-1-27 8:44:40 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="cn.edu.bnu.land.domain.Dcgj" table="DCGJ" schema="dbo" catalog="HCZFWG">
+        <composite-id name="id" class="cn.edu.bnu.land.domain.DcgjId">
+            <key-property name="id" type="int">
+                <column name="id" />
+            </key-property>
+            <key-property name="gjid" type="string">
+                <column name="gjid" length="50" />
+            </key-property>
+            <key-property name="rwid" type="string">
+                <column name="rwid" length="50" />
+            </key-property>
+            <key-property name="gjds" type="java.lang.Integer">
+                <column name="gjds" />
+            </key-property>
+            <key-property name="gjzb" type="string">
+                <column name="gjzb" />
+            </key-property>
+            <key-property name="sfjs" type="java.lang.Boolean">
+                <column name="sfjs" />
+            </key-property>
+            <key-property name="sj" type="timestamp">
+                <column name="sj" length="23" />
+            </key-property>
+            <key-property name="fxwc" type="java.lang.Boolean">
+                <column name="fxwc" />
+            </key-property>
+            <key-property name="sfsc" type="java.lang.Boolean">
+                <column name="sfsc" />
+            </key-property>
+            <key-property name="gjscbz" type="java.lang.Boolean">
+                <column name="gjscbz" />
+            </key-property>
+            <key-property name="gjcd" type="java.lang.Double">
+                <column name="GJCD" precision="53" scale="0" />
+            </key-property>
+            <key-property name="zrqy" type="string">
+                <column name="zrqy" length="50" />
+            </key-property>
+            <key-property name="xcry" type="string">
+                <column name="xcry" length="50" />
+            </key-property>
+            <key-property name="xcjg" type="string">
+                <column name="xcjg" length="50" />
+            </key-property>
+            <key-property name="xczzcs" type="string">
+                <column name="xczzcs" length="50" />
+            </key-property>
+            <key-property name="bgqk" type="string">
+                <column name="bgqk" length="50" />
+            </key-property>
+            <key-property name="xgry" type="string">
+                <column name="xgry" length="50" />
+            </key-property>
+            <key-property name="bz" type="string">
+                <column name="bz" length="50" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>

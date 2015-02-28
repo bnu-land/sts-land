@@ -1,0 +1,72 @@
+{
+    "type": "Ext.data.TreeStore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "defaultRootText": "行政区",
+        "designer|userClassName": "xingZhengQuStore",
+        "root": [
+            "expanden:true,",
+            ""
+        ],
+        "storeId": "xingZhengQuStore"
+    },
+    "name": "MyTreeStore",
+    "designerId": "3b173ac4-853b-4dc8-988e-2bf66c98c991",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "getQH"
+            },
+            "name": "MyAjaxProxy",
+            "designerId": "92737639-f598-4184-9d90-7eda4e0e1277",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyJsonReader",
+                    "designerId": "d8b4337c-b4b3-4abc-a484-aaa039c85bf9"
+                }
+            ]
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "text"
+            },
+            "name": "MyField",
+            "designerId": "2fd2c3e4-2f7b-455c-8a80-d7898e84b088"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "dm"
+            },
+            "name": "MyField1",
+            "designerId": "a05ffac5-baad-461c-beaa-259dde334a86"
+        }
+    ]
+}

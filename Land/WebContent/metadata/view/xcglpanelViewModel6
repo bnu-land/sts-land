@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "xtgl",
+        "designer|userClassName": "xcglpanelViewModel6"
+    },
+    "name": "xcglpanelViewModel6",
+    "designerId": "590759cc-a684-44ca-80de-2ea8c253f233"
+}

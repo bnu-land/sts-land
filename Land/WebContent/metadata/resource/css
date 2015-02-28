@@ -1,0 +1,15 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css",
+        "id": "panelRow",
+        "url": "resources/panelRow.css"
+    },
+    "name": "css",
+    "designerId": "e8d5caf2-d8d7-4a64-8d50-a818f73ddd70"
+}

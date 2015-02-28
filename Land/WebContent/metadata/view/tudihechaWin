@@ -1,0 +1,664 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "tudihechawin",
+        "designer|userClassName": "tudihechaWin",
+        "height": 596,
+        "layout": "fit",
+        "title": "土地属性核查",
+        "width": 627
+    },
+    "name": "MyWindow",
+    "designerId": "b18be847-62f1-4c36-94cb-687b72340326",
+    "viewControllerInstanceId": "87ee8794-d0e7-425d-9062-ff18f9035b9c",
+    "viewModelInstanceId": "83c568e2-bea6-4264-a14a-d6d2fdf9ad3d",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": 10,
+                "header": false,
+                "layout": "border",
+                "title": "My Form"
+            },
+            "name": "MyForm3",
+            "designerId": "44bf940c-c302-4be5-8e24-4585e4016975",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "layout": "vbox",
+                        "layout|flex": null,
+                        "layout|region": "west",
+                        "width": 284
+                    },
+                    "name": "MyContainer1",
+                    "designerId": "865d0d78-16d5-49ab-bf9e-9428068a4199",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "行政区代码",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField1",
+                            "designerId": "b237470b-fddd-4157-b7b2-94fc0bc3f7c6"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "县区名",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField2",
+                            "designerId": "acb93b18-b1cc-46e4-9020-975cb6cea46a"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "乡镇名称",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField3",
+                            "designerId": "063a21a1-79d2-42c7-be6e-88af9d15e9b0"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "前时相",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField4",
+                            "designerId": "a12bdccc-e830-4dcd-ad90-071a72035a7c"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "后时相",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField5",
+                            "designerId": "219122a3-4df5-4e99-a61e-7750fcebd400"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "X坐标",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField6",
+                            "designerId": "f3a947ee-aaa3-49a1-8bf1-1fa2c92d90af"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Y坐标",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField7",
+                            "designerId": "1644aa6e-b90e-47e8-9f73-b3a6e8a04dac"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "检测编号",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField8",
+                            "designerId": "c81b9b6e-f030-4438-903c-10c8e837f8f6"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "检测面积",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField9",
+                            "designerId": "167806cc-7bc1-452e-bc35-9adeff328f0e"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "备注",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField10",
+                            "designerId": "047c9d1b-d003-4c15-8e06-802c87e44c2e"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "地块编号",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField11",
+                            "designerId": "e061bdb0-3638-42fd-97b4-40d6597f37f4"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "地块分类",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField12",
+                            "designerId": "f08513d7-040e-406f-a2fa-8dacdfd38bad"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "地块面积",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField13",
+                            "designerId": "87c4b3d3-6eb0-439d-9db9-1efeb35af8ff"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "耕地面积",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField14",
+                            "designerId": "bf78ce5a-094b-4f91-a730-e7ebfc9e9011"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "农用地面积",
+                                "labelWidth": 70,
+                                "layout|flex": null
+                            },
+                            "name": "MyTextField15",
+                            "designerId": "00b64a3c-6bba-40e6-aebc-ce089d162513"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "vbox",
+                        "layout|flex": null,
+                        "layout|region": "east",
+                        "width": 318
+                    },
+                    "name": "MyContainer",
+                    "designerId": "baf282d7-d333-4ccc-bd81-2bd0150774dd",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "基本农田面积",
+                                "labelWidth": 85,
+                                "layout|flex": null,
+                                "width": 259
+                            },
+                            "name": "MyTextField1",
+                            "designerId": "1547abce-7c0f-42f6-b326-181be802b827"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "未利用地面积",
+                                "labelWidth": 85,
+                                "layout|flex": null,
+                                "width": 259
+                            },
+                            "name": "MyTextField16",
+                            "designerId": "59ba746d-3370-45d0-a94a-71bc41e9f2e7"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "实际用途",
+                                "labelWidth": 85,
+                                "layout|flex": null,
+                                "width": 259
+                            },
+                            "name": "MyTextField17",
+                            "designerId": "2056fd5e-dc1f-4357-9069-c812a1399b45"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "用地单位",
+                                "labelWidth": 85,
+                                "layout|flex": null,
+                                "width": 259
+                            },
+                            "name": "MyTextField18",
+                            "designerId": "062dd8ab-bd0e-4445-a234-573dd6e0f38b"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "项目类型",
+                                "labelWidth": 85,
+                                "layout|flex": null,
+                                "width": 259
+                            },
+                            "name": "MyTextField20",
+                            "designerId": "a5a2eda4-4aaa-4543-a638-f8f562096f21"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "合法性审查",
+                                "labelWidth": 85,
+                                "layout|flex": null,
+                                "width": 259
+                            },
+                            "name": "MyTextField19",
+                            "designerId": "3135bfd7-376b-4917-b7d4-4b1d8a370188"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "违法类型",
+                                "labelWidth": 85,
+                                "layout|flex": null,
+                                "width": 259
+                            },
+                            "name": "MyTextField21",
+                            "designerId": "969da10d-295f-4733-97f0-55bc37ec2834"
+                        },
+                        {
+                            "type": "Ext.form.FieldSet",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|snapToGrid": 5,
+                                "height": 236,
+                                "layout": "absolute",
+                                "layout|flex": null,
+                                "title": "上传资料",
+                                "width": 269
+                            },
+                            "name": "MyFieldSet4",
+                            "designerId": "acaeeae7-5ec4-485e-b288-d8a605b0dd84",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "拍摄人",
+                                        "labelWidth": 50,
+                                        "layout|x": 0,
+                                        "layout|y": 10,
+                                        "width": 120
+                                    },
+                                    "name": "MyTextField22",
+                                    "designerId": "d144df5d-e0bb-4618-9717-1e7ec6f3ca49"
+                                },
+                                {
+                                    "type": "Ext.form.field.Date",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "时间",
+                                        "labelWidth": 30,
+                                        "layout|x": 130,
+                                        "layout|y": 10,
+                                        "width": 113
+                                    },
+                                    "name": "MyDateField4",
+                                    "designerId": "87a5d2fd-f6ee-4dd0-a94a-f965631abe7a"
+                                },
+                                {
+                                    "type": "Ext.form.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "单位",
+                                        "labelWidth": 30,
+                                        "layout|x": 0,
+                                        "layout|y": 40,
+                                        "width": 245
+                                    },
+                                    "name": "MyTextField23",
+                                    "designerId": "d738546f-4b25-4406-8b71-f1e2616a68d8"
+                                },
+                                {
+                                    "type": "Ext.form.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "说明",
+                                        "labelWidth": 30,
+                                        "layout|x": 0,
+                                        "layout|y": 70,
+                                        "width": 245
+                                    },
+                                    "name": "MyTextField24",
+                                    "designerId": "8dd13209-0e24-4566-abb0-16cf38c86d41"
+                                },
+                                {
+                                    "type": "Ext.form.field.Display",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "",
+                                        "layout|x": 0,
+                                        "layout|y": 100,
+                                        "value": "照片视频",
+                                        "width": 30
+                                    },
+                                    "name": "MyDisplayField1",
+                                    "designerId": "6fc0fa8c-e919-407c-bb38-37c25d2f1690"
+                                },
+                                {
+                                    "type": "Ext.grid.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "autoScroll": true,
+                                        "forceFit": true,
+                                        "header": false,
+                                        "height": 80,
+                                        "layout|x": 35,
+                                        "layout|y": 101,
+                                        "title": "My Grid Panel"
+                                    },
+                                    "name": "MyGridPanel4",
+                                    "designerId": "6aa62044-0931-486e-bf2f-bf97d30e9753",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.grid.column.Column",
+                                            "reference": {
+                                                "name": "columns",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "dataIndex": "string",
+                                                "text": "序号",
+                                                "width": 57
+                                            },
+                                            "name": "MyColumn5",
+                                            "designerId": "207367ef-25c5-4075-ba99-8b9e6b15baca"
+                                        },
+                                        {
+                                            "type": "Ext.grid.column.Column",
+                                            "reference": {
+                                                "name": "columns",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "dataIndex": "string",
+                                                "text": "文件名"
+                                            },
+                                            "name": "MyColumn7",
+                                            "designerId": "89e9696f-0b04-4ae6-8a17-c9cd337414bb"
+                                        },
+                                        {
+                                            "type": "Ext.grid.View",
+                                            "reference": {
+                                                "name": "viewConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "name": "MyGridView4",
+                                            "designerId": "e3758cb6-9d50-4110-b2cd-c7cc33649738"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|x": 70,
+                                        "layout|y": 185,
+                                        "text": "添加",
+                                        "width": 60
+                                    },
+                                    "name": "MyButton17",
+                                    "designerId": "6abb7b49-50da-459a-8f50-fc7201524dd5"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|x": 150,
+                                        "layout|y": 185,
+                                        "text": "删除",
+                                        "width": 60
+                                    },
+                                    "name": "MyButton18",
+                                    "designerId": "57d64eea-646e-4c86-90d0-c482f1e7253a"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|pack": "center",
+                        "header": false,
+                        "height": 74,
+                        "layout": "hbox",
+                        "layout|flex": null,
+                        "layout|region": "south",
+                        "title": "My Panel"
+                    },
+                    "name": "MyPanel15",
+                    "designerId": "7ede4f4f-7169-4a47-8472-379ab5fbf7b4",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "0 80 0 0",
+                                "text": "保存",
+                                "width": 85
+                            },
+                            "name": "MyButton19",
+                            "designerId": "dfe54a99-907e-42aa-8002-a5d2d26c90d9"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "",
+                                "text": "关闭",
+                                "width": 85
+                            },
+                            "name": "MyButton20",
+                            "designerId": "28f81281-22db-4beb-9145-f8025a6b7a34"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

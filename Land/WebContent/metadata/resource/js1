@@ -1,0 +1,15 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "js1",
+        "includeInBundle": true,
+        "url": "resources/map.js"
+    },
+    "name": "js1",
+    "designerId": "ca1a5c3e-5391-4a72-92a2-82e9efa20422"
+}

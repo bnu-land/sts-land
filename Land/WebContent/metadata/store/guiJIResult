@@ -1,0 +1,55 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "guiJIResult",
+        "model": null,
+        "storeId": "guiJIResult"
+    },
+    "designerId": "bc87e77d-e38a-44da-aca0-35796da62d43",
+    "cn": [
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "guijihao"
+            },
+            "name": "MyField6",
+            "designerId": "ec7615ab-b8a3-457e-8681-369f87e6a085"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "renwuhao"
+            },
+            "name": "MyField7",
+            "designerId": "744584ac-26ff-4458-8466-5ad50829351d"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "time"
+            },
+            "name": "MyField8",
+            "designerId": "a1caf98a-02a1-441a-86f5-732732bc112e"
+        }
+    ]
+}

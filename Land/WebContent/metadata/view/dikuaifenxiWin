@@ -1,0 +1,612 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|uiInterfaceName": "default-framed",
+        "designer|userAlias": "dikuaifenxiwin",
+        "designer|userClassName": "dikuaifenxiWin",
+        "frame": true,
+        "height": 422,
+        "layout": "fit",
+        "title": "地块分析",
+        "width": 491
+    },
+    "name": "MyWindow",
+    "designerId": "32533bfd-148f-4423-8d28-bfc5df1f6d29",
+    "viewControllerInstanceId": "2c005a21-9650-4bf5-aef8-bf26d6150a47",
+    "viewModelInstanceId": "3b789468-7b91-412f-8037-55427f1b97ad",
+    "cn": [
+        {
+            "type": "Ext.tab.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "activeTab": 0,
+                "tabPosition": null
+            },
+            "name": "MyTabPanel",
+            "designerId": "cfc25502-4b5f-4046-b2d6-1308e80f6e82",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "height": 414,
+                        "layout": "vbox",
+                        "title": "分析条件"
+                    },
+                    "name": "MyPanel1",
+                    "designerId": "2c7cafbc-6a84-4d6a-a09b-e56a2fd457ca",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig",
+                            "designerId": "ee4d0f1e-08dd-485a-bc24-b3e3c49d2cdf"
+                        },
+                        {
+                            "type": "Ext.form.FieldSet",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "height": 174,
+                                "layout": "vbox",
+                                "layout|flex": null,
+                                "title": "分析地块",
+                                "width": 421
+                            },
+                            "name": "MyFieldSet1",
+                            "designerId": "45bb6a20-403f-4720-8dc7-a546615fa388",
+                            "cn": [
+                                {
+                                    "type": "Ext.grid.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "forceFit": true,
+                                        "header": false,
+                                        "height": 108,
+                                        "layout|flex": null,
+                                        "title": "My Grid Panel"
+                                    },
+                                    "name": "MyGridPanel5",
+                                    "designerId": "1a2e2078-167e-406b-bade-7d093a7b2743",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.grid.column.Column",
+                                            "reference": {
+                                                "name": "columns",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "dataIndex": "string",
+                                                "text": "序号"
+                                            },
+                                            "name": "MyColumn8",
+                                            "designerId": "f0b1cab6-74f8-43dc-8203-11b213b9a265"
+                                        },
+                                        {
+                                            "type": "Ext.grid.column.Column",
+                                            "reference": {
+                                                "name": "columns",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "dataIndex": "string",
+                                                "text": "X"
+                                            },
+                                            "name": "MyColumn9",
+                                            "designerId": "2171de07-565e-4eb4-847e-479f6ef636a7"
+                                        },
+                                        {
+                                            "type": "Ext.grid.column.Column",
+                                            "reference": {
+                                                "name": "columns",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "dataIndex": "string",
+                                                "text": "Y"
+                                            },
+                                            "name": "MyColumn10",
+                                            "designerId": "b9c43522-5d96-4d0b-9596-5e08835aa7ea"
+                                        },
+                                        {
+                                            "type": "Ext.grid.View",
+                                            "reference": {
+                                                "name": "viewConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "name": "MyGridView5",
+                                            "designerId": "c55d1fd3-9467-4149-b5e3-0a2242c7784b"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|align": "middle",
+                                        "container|pack": "center",
+                                        "container|padding": "",
+                                        "height": 33,
+                                        "layout": "hbox",
+                                        "layout|flex": 1,
+                                        "margin": "",
+                                        "padding": "",
+                                        "width": 360
+                                    },
+                                    "name": "MyContainer2",
+                                    "designerId": "115e8683-67d1-4a50-956f-e876076b4c73",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.button.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": null,
+                                                "text": "选择",
+                                                "width": 65
+                                            },
+                                            "name": "MyButton",
+                                            "designerId": "d0055b34-8da3-4d96-a8d3-2ef6c2171ad0"
+                                        },
+                                        {
+                                            "type": "Ext.button.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": null,
+                                                "margin": "0 30 0 30",
+                                                "text": "绘制",
+                                                "width": 65
+                                            },
+                                            "name": "MyButton1",
+                                            "designerId": "61e5516e-5120-4f50-9141-a47010633920"
+                                        },
+                                        {
+                                            "type": "Ext.button.Button",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": null,
+                                                "margin": "",
+                                                "text": "导入",
+                                                "width": 65
+                                            },
+                                            "name": "MyButton2",
+                                            "designerId": "6b19e704-a2d6-466f-8c28-fafe5254dab9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.form.FieldSet",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|snapToGrid": 10,
+                                "height": 117,
+                                "layout": "absolute",
+                                "layout|flex": null,
+                                "title": "叠加地图",
+                                "width": 421
+                            },
+                            "name": "MyFieldSet2",
+                            "designerId": "73892264-c65d-4c4c-8f73-3b825a9dcf81",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.CheckboxGroup",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "height": 30,
+                                        "hideLabel": true,
+                                        "layout|x": 10,
+                                        "layout|y": 0,
+                                        "width": 421
+                                    },
+                                    "name": "MyCheckboxGroup",
+                                    "designerId": "d483d7f0-8291-4bf5-9ab0-af61c60413d5",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.form.field.Checkbox",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "boxLabel": "土地利用现状",
+                                                "fieldLabel": null
+                                            },
+                                            "name": "MyCheckbox2",
+                                            "designerId": "f3a7daad-42a7-4674-853a-38c3acf41de5"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Checkbox",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "boxLabel": "土地供应",
+                                                "fieldLabel": null
+                                            },
+                                            "name": "MyCheckbox3",
+                                            "designerId": "24babeb7-1420-412c-8ce9-58c0f79b6278"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Checkbox",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "boxLabel": "土地规划",
+                                                "fieldLabel": null
+                                            },
+                                            "name": "MyCheckbox4",
+                                            "designerId": "a6fcae61-eb01-4fee-8a48-d1865c5eab35"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.form.CheckboxGroup",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "height": 30,
+                                        "hideLabel": true,
+                                        "layout|x": 10,
+                                        "layout|y": 30,
+                                        "width": 421
+                                    },
+                                    "name": "MyCheckboxGroup1",
+                                    "designerId": "a259a924-4265-4988-a589-bff6cc29e270",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.form.field.Checkbox",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "boxLabel": "建设用地数据",
+                                                "fieldLabel": null
+                                            },
+                                            "name": "MyCheckbox2",
+                                            "designerId": "ed6a45ec-fe11-4ddc-8557-517af0c00515"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Checkbox",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "boxLabel": "基本农田",
+                                                "fieldLabel": null
+                                            },
+                                            "name": "MyCheckbox3",
+                                            "designerId": "867f525f-694d-49ba-817a-e0c1cfe68157"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Checkbox",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "boxLabel": "矿产资源规划",
+                                                "fieldLabel": null
+                                            },
+                                            "name": "MyCheckbox4",
+                                            "designerId": "2218282f-f817-401f-88d2-44294c87cb39"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.form.CheckboxGroup",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fieldLabel": "Label",
+                                        "height": 30,
+                                        "hideLabel": true,
+                                        "layout|x": 10,
+                                        "layout|y": 60,
+                                        "width": 285
+                                    },
+                                    "name": "MyCheckboxGroup2",
+                                    "designerId": "c1f9e9b8-82db-419d-89ab-66014a0d01ef",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.form.field.Checkbox",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "boxLabel": "建设用地数据",
+                                                "fieldLabel": null
+                                            },
+                                            "name": "MyCheckbox2",
+                                            "designerId": "c3f77c35-878e-4433-b745-6608030e90d5"
+                                        },
+                                        {
+                                            "type": "Ext.form.field.Checkbox",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "boxLabel": "基本农田",
+                                                "fieldLabel": null
+                                            },
+                                            "name": "MyCheckbox3",
+                                            "designerId": "5400480d-2c63-4376-a084-fd33f1632d69"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|x": 280,
+                                        "layout|y": 65,
+                                        "text": "清除"
+                                    },
+                                    "name": "MyButton3",
+                                    "designerId": "b15ef404-ab02-43c7-b937-09e742325b01"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|x": 340,
+                                        "layout|y": 65,
+                                        "text": "全选"
+                                    },
+                                    "name": "MyButton5",
+                                    "designerId": "25e34be6-0020-4f9c-bb07-8765a96c79a1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "middle",
+                                "container|pack": "center",
+                                "layout": "hbox",
+                                "layout|flex": 1
+                            },
+                            "name": "MyContainer3",
+                            "designerId": "00b7afe5-2baf-4c5f-9664-50aa87ff93cc",
+                            "cn": [
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 10 0 10",
+                                        "text": "分析",
+                                        "width": 80
+                                    },
+                                    "name": "MyButton6",
+                                    "designerId": "999fbfcb-289f-47a2-b2da-ded6fd7fd7ef"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 10 0 10",
+                                        "text": "结果提取",
+                                        "width": 80
+                                    },
+                                    "name": "MyButton25",
+                                    "designerId": "5f21333a-4d45-4ccb-94e5-ff1c4f4bf531"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 10 0 10",
+                                        "text": "导出结果",
+                                        "width": 80
+                                    },
+                                    "name": "MyButton26",
+                                    "designerId": "77ca5eb5-fbef-46ed-b608-db8ddf78a0ae"
+                                },
+                                {
+                                    "type": "Ext.button.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "margin": "0 10 0 10",
+                                        "text": "退出",
+                                        "width": 80
+                                    },
+                                    "name": "MyButton27",
+                                    "designerId": "f220ce0f-0f5c-4f66-837d-9b899d42a652"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "分析结果汇总"
+                    },
+                    "name": "MyPanel2",
+                    "designerId": "70241d40-c16e-4943-af9b-a4ecf611ebf2",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig1",
+                            "designerId": "63bfce90-1c25-4ba0-9dd3-973c00283778"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "分析结果详细信息"
+                    },
+                    "name": "MyPanel3",
+                    "designerId": "2678aae3-986e-4be8-ab37-62d0688f0ac2",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "name": "TabConfig2",
+                            "designerId": "140b8192-1c30-49d1-960d-aa610ab29c42"
+                        },
+                        {
+                            "type": "Ext.toolbar.Toolbar",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dock": "top"
+                            },
+                            "name": "MyToolbar",
+                            "designerId": "69898df2-4a5f-40df-b5ab-2876af7160ba",
+                            "cn": [
+                                {
+                                    "type": "Ext.toolbar.TextItem",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "text": "土地利用现状"
+                                    },
+                                    "name": "MyTextItem",
+                                    "designerId": "51a6077c-e9e0-4aa4-ad87-61f0b78dbf38"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

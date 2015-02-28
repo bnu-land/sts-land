@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-1-27 10:22:26 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="cn.edu.bnu.land.domain.Xzqh" table="XZQH" schema="dbo" catalog="HCZFWG">
+           <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="native" />
+        </id>
+        <property name="xzqm" type="java.lang.String">
+            <column name="xzqm" length="50" />
+        </property>
+        <property name="qhdm" type="java.lang.String">
+            <column name="qhdm" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>
