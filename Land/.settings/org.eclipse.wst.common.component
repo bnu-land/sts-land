@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Land">
+    <wb-module deploy-name="land">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource"/>
-        <property name="java-output-path" value="/Land/build/classes"/>
-        <property name="context-root" value="Land"/>
+        <property name="java-output-path" value="/land/build/classes"/>
+        <property name="context-root" value="land"/>
     </wb-module>
 </project-modules>

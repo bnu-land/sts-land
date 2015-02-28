@@ -7,16 +7,48 @@
     "codeClass": null,
     "userConfig": {
         "models": [
-            "usersModel"
+            "guiJIReuslutModel"
         ],
         "name": "MyApp",
         "stores": [
-            "usersStore"
+            "xingZhengQuStore",
+            "guiJIResult",
+            "xingzhengqu",
+            "zfdwStore",
+            "zfryStore"
         ],
         "views": [
-            "MainView"
+            "MainView",
+            "xcglpanel",
+            "xcdhpanel",
+            "zfwl",
+            "dbfx",
+            "tjbb",
+            "xzq",
+            "xtgl",
+            "help",
+            "tudihechaWin",
+            "dikuaifenxiWin"
         ]
     },
     "name": "Application",
-    "designerId": "application"
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": [
+                    ""
+                ]
+            },
+            "name": "launch",
+            "designerId": "463cf56a-9571-479b-bcb7-fedf6a2be68e"
+        }
+    ]
 }

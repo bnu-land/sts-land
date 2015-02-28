@@ -19,150 +19,295 @@ Ext.define('MyApp.view.MainView', {
 
     requires: [
         'MyApp.view.MainViewViewModel',
-        'Ext.menu.Menu',
-        'Ext.menu.Item',
+        'MyApp.view.MainViewViewController',
+        'Ext.Img',
+        'Ext.button.Segmented',
+        'Ext.tab.Panel',
+        'Ext.tab.Tab',
         'Ext.grid.Panel',
         'Ext.grid.column.Number',
+        'Ext.grid.column.Date',
+        'Ext.grid.column.Boolean',
         'Ext.grid.View'
     ],
 
+    controller: 'mainview',
     viewModel: {
         type: 'mainview'
     },
+    html: '<div id="mapcontainer">hello world</div>',
     itemId: 'mainView',
     layout: 'border',
+    defaultListenerScope: true,
 
     items: [
         {
             xtype: 'panel',
             region: 'north',
-            height: 100,
+            height: 72,
+            html: '<h1 style="color:#333;;margin:25px 0px 0px 35px;">\n辽宁国土资源一张图管理平台</h1>',
             itemId: 'headerPanel',
-            title: 'Header'
+            layout: 'absolute',
+            title: '',
+            items: [
+                {
+                    xtype: 'image',
+                    x: 0,
+                    y: 0,
+                    height: '100%',
+                    width: '100%',
+                    src: 'resources/header-back.png'
+                },
+                {
+                    xtype: 'image',
+                    x: 1,
+                    y: 1,
+                    height: 72,
+                    width: 400,
+                    src: 'resources/header.png'
+                },
+                {
+                    xtype: 'segmentedbutton',
+                    x: 421,
+                    y: 20,
+                    height: 35,
+                    margin: '',
+                    width: 920,
+                    layout: {
+                        type: 'hbox',
+                        align: 'stretch'
+                    },
+                    items: [
+                        {
+                            flex: 1,
+                            margin: '0 1 0 1',
+                            style: 'background-color:#57a2d8;\nborder:none;',
+                            allowDepress: false,
+                            enableToggle: true,
+                            icon: '',
+                            text: '巡查管理',
+                            listeners: {
+                                click: {
+                                    fn: 'onButtonClick',
+                                    scope: 'controller'
+                                }
+                            }
+                        },
+                        {
+                            flex: 1,
+                            margin: '',
+                            style: 'background-color:#57a2d8;\nborder:none;',
+                            text: '巡查导航',
+                            listeners: {
+                                click: {
+                                    fn: 'onButtonClick1',
+                                    scope: 'controller'
+                                }
+                            }
+                        },
+                        {
+                            flex: 1,
+                            margin: '0 1 0 1',
+                            style: 'background-color:#57a2d8;\nborder:none;',
+                            text: '执法网络',
+                            listeners: {
+                                click: 'onButtonClick2'
+                            }
+                        },
+                        {
+                            flex: 1,
+                            margin: '',
+                            style: 'background-color:#57a2d8;\nborder:none;',
+                            text: '对比分析',
+                            listeners: {
+                                click: 'onButtonClick3'
+                            }
+                        },
+                        {
+                            flex: 1,
+                            margin: '0 1 0 1',
+                            style: 'background-color:#57a2d8;\nborder:none;',
+                            width: 70,
+                            text: '行政区',
+                            listeners: {
+                                click: 'onButtonClick5'
+                            }
+                        },
+                        {
+                            flex: 1,
+                            margin: '',
+                            style: 'background-color:#57a2d8;\nborder:none;',
+                            text: '统计报表',
+                            listeners: {
+                                click: 'onButtonClick4'
+                            }
+                        },
+                        {
+                            flex: 1,
+                            margin: '0 1 0 1',
+                            style: 'background-color:#57a2d8;\nborder:none;',
+                            text: '系统管理',
+                            listeners: {
+                                click: 'onButtonClick6'
+                            }
+                        },
+                        {
+                            flex: 1,
+                            height: 25,
+                            margin: '',
+                            style: 'background-color:#57a2d8;\nborder:none;',
+                            width: 70,
+                            text: '帮助',
+                            listeners: {
+                                click: 'onButtonClick7'
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            xtype: 'panel',
+            region: 'center',
+            split: true,
+            itemId: 'contentPanel',
+            layout: 'border',
+            closable: true,
+            collapsible: true,
+            header: false,
+            title: 'Content',
+            items: [
+                {
+                    xtype: 'tabpanel',
+                    region: 'center',
+                    activeTab: 0,
+                    items: [
+                        {
+                            xtype: 'panel',
+                            height: 469,
+                            html: '<div id="mapContainer" style="height:100%"></div>',
+                            id: '',
+                            title: '地图',
+                            tabConfig: {
+                                xtype: 'tab',
+                                closeText: '关闭'
+                            }
+                        },
+                        {
+                            xtype: 'panel',
+                            closable: true,
+                            title: 'Tab 2',
+                            tabConfig: {
+                                xtype: 'tab',
+                                closeText: '关闭'
+                            }
+                        },
+                        {
+                            xtype: 'panel',
+                            height: 413,
+                            closable: true,
+                            title: 'Tab 3'
+                        }
+                    ]
+                },
+                {
+                    xtype: 'gridpanel',
+                    region: 'south',
+                    split: true,
+                    height: 144,
+                    collapsible: true,
+                    title: '信息',
+                    columns: [
+                        {
+                            xtype: 'gridcolumn',
+                            dataIndex: 'string',
+                            text: 'String'
+                        },
+                        {
+                            xtype: 'numbercolumn',
+                            dataIndex: 'number',
+                            text: 'Number'
+                        },
+                        {
+                            xtype: 'datecolumn',
+                            dataIndex: 'date',
+                            text: 'Date'
+                        },
+                        {
+                            xtype: 'booleancolumn',
+                            dataIndex: 'bool',
+                            text: 'Boolean'
+                        }
+                    ]
+                }
+            ]
         },
         {
             xtype: 'panel',
             region: 'west',
             split: true,
-            itemId: 'menuPanel',
-            width: 250,
-            layout: 'accordion',
+            id: 'menuContainer',
+            width: 300,
+            layout: 'fit',
+            bodyBorder: false,
+            bodyStyle: 'solid 2px #f00',
             collapseDirection: 'left',
-            title: 'Menu',
-            items: [
-                {
-                    xtype: 'panel',
-                    title: 'Group 1',
-                    items: [
-                        {
-                            xtype: 'menu',
-                            floating: false,
-                            itemId: 'menu1',
-                            items: [
-                                {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    xtype: 'panel',
-                    title: 'Group 2',
-                    items: [
-                        {
-                            xtype: 'menu',
-                            floating: false,
-                            itemId: 'menu2',
-                            items: [
-                                {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    xtype: 'panel',
-                    title: 'Group 3',
-                    items: [
-                        {
-                            xtype: 'menu',
-                            floating: false,
-                            itemId: 'menu3',
-                            items: [
-                                {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            xtype: 'panel',
-            flex: 1,
-            region: 'center',
-            itemId: 'contentPanel',
-            title: 'Content',
-            items: [
-                {
-                    xtype: 'gridpanel',
-                    title: 'My Grid Panel',
-                    store: 'usersStore',
-                    columns: [
-                        {
-                            xtype: 'numbercolumn',
-                            dataIndex: 'id',
-                            text: '编号'
-                        },
-                        {
-                            xtype: 'gridcolumn',
-                            dataIndex: 'name',
-                            text: '用户名'
-                        },
-                        {
-                            xtype: 'gridcolumn',
-                            dataIndex: 'password',
-                            text: '密码'
-                        },
-                        {
-                            xtype: 'gridcolumn',
-                            dataIndex: 'email',
-                            text: '邮箱'
-                        }
-                    ]
-                }
-            ]
+            collapsible: true,
+            header: false,
+            title: ''
         }
-    ]
+    ],
+    listeners: {
+        afterrender: 'onMainViewAfterRender'
+    },
+
+    onButtonClick2: function(button, e, eOpts) {
+        var container = Ext.getCmp('menuContainer');
+             container.removeAll();
+             var menu=new MyApp.view.zfwl();
+             container.add(menu);
+    },
+
+    onButtonClick3: function(button, e, eOpts) {
+        var container = Ext.getCmp('menuContainer');
+             container.removeAll();
+             var menu=new MyApp.view.dbfx();
+             container.add(menu);
+    },
+
+    onButtonClick5: function(button, e, eOpts) {
+        var container = Ext.getCmp('menuContainer');
+             container.removeAll();
+             var menu=new MyApp.view.xzq();
+             container.add(menu);
+    },
+
+    onButtonClick4: function(button, e, eOpts) {
+        var container = Ext.getCmp('menuContainer');
+             container.removeAll();
+             var menu=new MyApp.view.tjbb();
+             container.add(menu);
+    },
+
+    onButtonClick6: function(button, e, eOpts) {
+        var container = Ext.getCmp('menuContainer');
+             container.removeAll();
+             var menu=new MyApp.view.xtgl();
+             container.add(menu);
+    },
+
+    onButtonClick7: function(button, e, eOpts) {
+        var container = Ext.getCmp('menuContainer');
+        container.removeAll();
+        var menu=new MyApp.view.help();
+        container.add(menu);
+    },
+
+    onMainViewAfterRender: function(component, eOpts) {
+        var container = Ext.getCmp('menuContainer');
+             container.removeAll();
+             var menu=new MyApp.view.xcglpanel();
+             container.add(menu);
+    }
 
 });

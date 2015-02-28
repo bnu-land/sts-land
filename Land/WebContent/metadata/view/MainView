@@ -9,12 +9,15 @@
         "designer|initialView": true,
         "designer|userAlias": "mainview",
         "designer|userClassName": "MainView",
+        "html": [
+            "<div id=\"mapcontainer\">hello world</div>"
+        ],
         "itemId": "mainView",
         "layout": "border"
     },
-    "designerId": "ccf11f1b-c72a-44fc-9803-344ace6f3349",
-    "viewControllerInstanceId": "4611ed12-d628-4ff4-91cd-baa29154d036",
-    "viewModelInstanceId": "f4941368-9963-4383-b809-d66d6516ffe3",
+    "designerId": "a705110d-4ce3-4545-a748-7f920677364e",
+    "viewControllerInstanceId": "b3b9ee8b-b1d5-4b04-95eb-7b2473518f97",
+    "viewModelInstanceId": "d77e9686-fe86-4d30-bd36-7e3bd52cfa59",
     "cn": [
         {
             "type": "Ext.panel.Panel",
@@ -24,243 +27,416 @@
             },
             "codeClass": null,
             "userConfig": {
-                "height": 100,
+                "designer|snapToGrid": 10,
+                "height": 72,
+                "html": [
+                    "<h1 style=\"color:#333;;margin:25px 0px 0px 35px;\">",
+                    "辽宁国土资源一张图管理平台</h1>"
+                ],
                 "itemId": "headerPanel",
+                "layout": "absolute",
                 "layout|region": "north",
-                "title": "Header"
+                "title": ""
             },
             "name": "MyPanel1",
-            "designerId": "d12ff238-6d23-4f16-b276-6ecc63966fbf"
-        },
-        {
-            "type": "Ext.panel.Panel",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "collapseDirection": "left",
-                "itemId": "menuPanel",
-                "layout": "accordion",
-                "layout|collapseMode": null,
-                "layout|region": "west",
-                "layout|split": true,
-                "title": "Menu",
-                "width": 250
-            },
-            "name": "MyPanel2",
-            "designerId": "ec429cf4-e38a-4872-a33d-5a8029944736",
+            "designerId": "a67ef7eb-1c7b-4f8d-ab53-848448de9b61",
             "cn": [
                 {
-                    "type": "Ext.panel.Panel",
+                    "type": "Ext.Img",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "itemId": null,
-                        "title": "Group 1"
+                        "dock": null,
+                        "height": "100%",
+                        "layout|x": 0,
+                        "layout|y": 0,
+                        "src": "resources/header-back.png",
+                        "width": "100%"
                     },
-                    "name": "MyPanel3",
-                    "designerId": "e84deeed-6215-4aca-a04d-0914b9702e93",
-                    "cn": [
-                        {
-                            "type": "Ext.menu.Menu",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "floating": false,
-                                "itemId": "menu1",
-                                "width": null
-                            },
-                            "name": "MyMenu",
-                            "designerId": "5a8b8303-a313-4e47-b17a-5a32abd91d8d",
-                            "cn": [
-                                {
-                                    "type": "Ext.menu.Item",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "text": "Menu Item"
-                                    },
-                                    "name": "MyMenuItem",
-                                    "designerId": "8e7d8619-35b1-4071-a445-94d64931dc8d"
-                                },
-                                {
-                                    "type": "Ext.menu.Item",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "text": "Menu Item"
-                                    },
-                                    "name": "MyMenuItem1",
-                                    "designerId": "e34d3196-d2b5-4c4e-96b1-c5b9d2b5b6c7"
-                                },
-                                {
-                                    "type": "Ext.menu.Item",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "text": "Menu Item"
-                                    },
-                                    "name": "MyMenuItem2",
-                                    "designerId": "07bde0bb-39ef-401d-9e40-e940d68af3be"
-                                }
-                            ]
-                        }
-                    ]
+                    "name": "MyImg",
+                    "designerId": "016e112d-ee02-401a-9ffb-37dc99d93448"
                 },
                 {
-                    "type": "Ext.panel.Panel",
+                    "type": "Ext.Img",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "title": "Group 2"
+                        "dock": null,
+                        "height": 72,
+                        "layout|x": 1,
+                        "layout|y": 1,
+                        "src": "resources/header.png",
+                        "width": 400
                     },
-                    "name": "MyPanel4",
-                    "designerId": "bba14e45-2837-4d8e-a872-662c5091881c",
-                    "cn": [
-                        {
-                            "type": "Ext.menu.Menu",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "floating": false,
-                                "itemId": "menu2",
-                                "width": null
-                            },
-                            "name": "MyMenu1",
-                            "designerId": "e587c1dd-ec3d-4424-b5e7-7f1813466103",
-                            "cn": [
-                                {
-                                    "type": "Ext.menu.Item",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "text": "Menu Item"
-                                    },
-                                    "name": "MyMenuItem3",
-                                    "designerId": "c770dbb5-a50a-473c-8a44-23d286934911"
-                                },
-                                {
-                                    "type": "Ext.menu.Item",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "text": "Menu Item"
-                                    },
-                                    "name": "MyMenuItem4",
-                                    "designerId": "beb13bbb-44b2-4fb0-97e0-73f2e7187f02"
-                                },
-                                {
-                                    "type": "Ext.menu.Item",
-                                    "reference": {
-                                        "name": "items",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "text": "Menu Item"
-                                    },
-                                    "name": "MyMenuItem5",
-                                    "designerId": "cfe59057-3ba4-4721-9511-6d7cda87e10c"
-                                }
-                            ]
-                        }
-                    ]
+                    "name": "MyImg1",
+                    "designerId": "545548ba-204e-4fe9-a034-0b4f27818f36"
                 },
                 {
-                    "type": "Ext.panel.Panel",
+                    "type": "Ext.button.Segmented",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "title": "Group 3"
+                        "container|align": "stretch",
+                        "dock": null,
+                        "height": 35,
+                        "layout": "hbox",
+                        "layout|x": 421,
+                        "layout|y": 20,
+                        "margin": "",
+                        "width": 920
                     },
-                    "name": "MyPanel5",
-                    "designerId": "75661fc3-906d-4861-8b6b-3f46f5df3d1b",
+                    "name": "MySegmentedButton1",
+                    "designerId": "2dc9b88b-c16a-4081-b824-29c43cb6260f",
                     "cn": [
                         {
-                            "type": "Ext.menu.Menu",
+                            "type": "Ext.button.Button",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "floating": false,
-                                "itemId": "menu3",
-                                "width": null
+                                "allowDepress": false,
+                                "enableToggle": true,
+                                "icon": "",
+                                "iconAlign": null,
+                                "layout|flex": 1,
+                                "margin": "0 1 0 1",
+                                "style": [
+                                    "background-color:#57a2d8;",
+                                    "border:none;"
+                                ],
+                                "text": "巡查管理"
                             },
-                            "name": "MyMenu2",
-                            "designerId": "0b76075d-71c5-4330-b36a-2f20b79602f9",
+                            "name": "MyButton",
+                            "designerId": "42f744f3-9bb7-4350-b68c-09825f02d2ee",
                             "cn": [
                                 {
-                                    "type": "Ext.menu.Item",
+                                    "type": "viewcontrollereventbinding",
                                     "reference": {
-                                        "name": "items",
+                                        "name": "listeners",
                                         "type": "array"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "text": "Menu Item"
+                                        "fn": "onButtonClick",
+                                        "implHandler": [
+                                            "     var container = Ext.getCmp('menuContainer');",
+                                            "     container.removeAll();",
+                                            "     var menu=new MyApp.view.xcglpanel();",
+                                            "     container.add(menu);"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
                                     },
-                                    "name": "MyMenuItem6",
-                                    "designerId": "58af5433-8fcd-4e1e-8b72-393dacbac634"
-                                },
+                                    "name": "onButtonClick",
+                                    "designerId": "16cd1fcd-1f6c-493a-9a85-d1b229e2640d"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": "",
+                                "style": [
+                                    "background-color:#57a2d8;",
+                                    "border:none;"
+                                ],
+                                "text": "巡查导航"
+                            },
+                            "name": "MyButton7",
+                            "designerId": "4b045433-63ff-4883-9d76-5a069a0f54fc",
+                            "cn": [
                                 {
-                                    "type": "Ext.menu.Item",
+                                    "type": "viewcontrollereventbinding",
                                     "reference": {
-                                        "name": "items",
+                                        "name": "listeners",
                                         "type": "array"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "text": "Menu Item"
+                                        "fn": "onButtonClick1",
+                                        "implHandler": [
+                                            "var container = Ext.getCmp('menuContainer');",
+                                            "container.removeAll();",
+                                            "var menu=new MyApp.view.xcdhpanel();",
+                                            "container.add(menu);"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
                                     },
-                                    "name": "MyMenuItem7",
-                                    "designerId": "3475efc3-9da5-4513-a311-15ae6e8cfbee"
-                                },
+                                    "name": "onButtonClick1",
+                                    "designerId": "9a1b9362-4316-4ac4-9bfd-73c3c07245c1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": "0 1 0 1",
+                                "style": [
+                                    "background-color:#57a2d8;",
+                                    "border:none;"
+                                ],
+                                "text": "执法网络"
+                            },
+                            "name": "MyButton1",
+                            "designerId": "b954efb8-65ce-430a-8a6f-bbb019d11144",
+                            "cn": [
                                 {
-                                    "type": "Ext.menu.Item",
+                                    "type": "basiceventbinding",
                                     "reference": {
-                                        "name": "items",
+                                        "name": "listeners",
                                         "type": "array"
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "text": "Menu Item"
+                                        "fn": "onButtonClick2",
+                                        "implHandler": [
+                                            "var container = Ext.getCmp('menuContainer');",
+                                            "     container.removeAll();",
+                                            "     var menu=new MyApp.view.zfwl();",
+                                            "     container.add(menu);"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
                                     },
-                                    "name": "MyMenuItem8",
-                                    "designerId": "6dc1aefe-13fa-4d16-85c0-2a2b3d86ebf7"
+                                    "name": "onButtonClick2",
+                                    "designerId": "0547ea0f-3bd6-4638-b031-522802235157"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": "",
+                                "style": [
+                                    "background-color:#57a2d8;",
+                                    "border:none;"
+                                ],
+                                "text": "对比分析"
+                            },
+                            "name": "MyButton2",
+                            "designerId": "3d1c0489-4255-4539-a785-cf43bcea7260",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onButtonClick3",
+                                        "implHandler": [
+                                            "var container = Ext.getCmp('menuContainer');",
+                                            "     container.removeAll();",
+                                            "     var menu=new MyApp.view.dbfx();",
+                                            "     container.add(menu);"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "name": "onButtonClick3",
+                                    "designerId": "ec18d8e4-51bf-4530-a2e3-2ec0be7bbb9a"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": "0 1 0 1",
+                                "style": [
+                                    "background-color:#57a2d8;",
+                                    "border:none;"
+                                ],
+                                "text": "行政区",
+                                "width": 70
+                            },
+                            "name": "MyButton8",
+                            "designerId": "27dc6f29-ecbe-44c9-b0c8-633e839b3b67",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onButtonClick5",
+                                        "implHandler": [
+                                            "var container = Ext.getCmp('menuContainer');",
+                                            "     container.removeAll();",
+                                            "     var menu=new MyApp.view.xzq();",
+                                            "     container.add(menu);"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "name": "onButtonClick5",
+                                    "designerId": "fb7679dd-b49b-47bb-bb1b-f0917b3b6983"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": "",
+                                "style": [
+                                    "background-color:#57a2d8;",
+                                    "border:none;"
+                                ],
+                                "text": "统计报表"
+                            },
+                            "name": "MyButton3",
+                            "designerId": "89eb1de0-9181-4270-8390-a1a8b328284e",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onButtonClick4",
+                                        "implHandler": [
+                                            "var container = Ext.getCmp('menuContainer');",
+                                            "     container.removeAll();",
+                                            "     var menu=new MyApp.view.tjbb();",
+                                            "     container.add(menu);"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "name": "onButtonClick4",
+                                    "designerId": "b99cd8d6-275d-4c80-8642-d366e720a5c3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "margin": "0 1 0 1",
+                                "style": [
+                                    "background-color:#57a2d8;",
+                                    "border:none;"
+                                ],
+                                "text": "系统管理"
+                            },
+                            "name": "MyButton5",
+                            "designerId": "5d8d017b-95d4-4282-afac-522b72dc19ce",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onButtonClick6",
+                                        "implHandler": [
+                                            "var container = Ext.getCmp('menuContainer');",
+                                            "     container.removeAll();",
+                                            "     var menu=new MyApp.view.xtgl();",
+                                            "     container.add(menu);"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "name": "onButtonClick6",
+                                    "designerId": "a50dba10-0872-4453-aafa-afeda6dbd082"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 25,
+                                "layout|flex": 1,
+                                "margin": "",
+                                "style": [
+                                    "background-color:#57a2d8;",
+                                    "border:none;"
+                                ],
+                                "text": "帮助",
+                                "width": 70
+                            },
+                            "name": "MyButton6",
+                            "designerId": "25e4ee89-90f5-472c-8e10-6d94bca3165f",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onButtonClick7",
+                                        "implHandler": [
+                                            "var container = Ext.getCmp('menuContainer');",
+                                            "container.removeAll();",
+                                            "var menu=new MyApp.view.help();",
+                                            "container.add(menu);"
+                                        ],
+                                        "name": "click",
+                                        "scope": "me"
+                                    },
+                                    "name": "onButtonClick7",
+                                    "designerId": "7177ce61-8834-4dbd-97cd-5a7d31f9dda6"
                                 }
                             ]
                         }
@@ -276,14 +452,123 @@
             },
             "codeClass": null,
             "userConfig": {
+                "closable": true,
+                "collapsible": true,
+                "header": false,
                 "itemId": "contentPanel",
-                "layout|flex": 1,
+                "layout": "border",
                 "layout|region": "center",
+                "layout|split": true,
                 "title": "Content"
             },
-            "name": "MyPanel6",
-            "designerId": "3a200be7-aa02-4bfa-bc13-05b3cebcdf9c",
+            "name": "MyPanel3",
+            "designerId": "c125811a-f32b-4ce6-9ac3-fa8a0babbdd4",
             "cn": [
+                {
+                    "type": "Ext.tab.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "activeTab": 0,
+                        "layout|region": "center"
+                    },
+                    "name": "MyTabPanel1",
+                    "designerId": "22edc85a-9a7d-4ead-b409-61f8d545e085",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 469,
+                                "html": [
+                                    "<div id=\"mapContainer\" style=\"height:100%\"></div>"
+                                ],
+                                "id": "",
+                                "title": "地图"
+                            },
+                            "name": "MyPanel7",
+                            "designerId": "b2e480f9-f49d-4f79-948a-d8b07a461151",
+                            "cn": [
+                                {
+                                    "type": "Ext.tab.Tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "closeText": "关闭"
+                                    },
+                                    "name": "TabConfig2",
+                                    "designerId": "72eefa78-dd46-4023-8624-6497e72e7ce6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "closable": true,
+                                "title": "Tab 2"
+                            },
+                            "name": "MyPanel8",
+                            "designerId": "2fdd3386-053b-4784-aea0-f12ab4d151ee",
+                            "cn": [
+                                {
+                                    "type": "Ext.tab.Tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "closeText": "关闭"
+                                    },
+                                    "name": "TabConfig3",
+                                    "designerId": "1a1aa328-285f-4263-a7b8-c27c1dbd91a0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "closable": true,
+                                "height": 413,
+                                "title": "Tab 3"
+                            },
+                            "name": "MyPanel9",
+                            "designerId": "36e39b00-3c33-420c-b2ea-4184c38cc62f",
+                            "cn": [
+                                {
+                                    "type": "Ext.tab.Tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "name": "TabConfig4",
+                                    "designerId": "7137df95-611f-45ba-b5d5-2a783c72a077"
+                                }
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "Ext.grid.Panel",
                     "reference": {
@@ -292,12 +577,29 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "store": "usersStore",
-                        "title": "My Grid Panel"
+                        "collapsible": true,
+                        "height": 144,
+                        "layout|region": "south",
+                        "layout|split": true,
+                        "title": "信息"
                     },
                     "name": "MyGridPanel",
-                    "designerId": "982f56a3-f670-41ff-890d-496ec141d18e",
+                    "designerId": "360291fc-48c0-4531-9352-07504e63cf97",
                     "cn": [
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "string",
+                                "text": "String"
+                            },
+                            "name": "MyColumn",
+                            "designerId": "18ed7bf2-89ad-443c-a72d-fa3c9d1aa3a2"
+                        },
                         {
                             "type": "Ext.grid.column.Number",
                             "reference": {
@@ -306,53 +608,39 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "id",
-                                "text": "编号"
+                                "dataIndex": "number",
+                                "text": "Number"
                             },
-                            "name": "MyNumberColumn1",
-                            "designerId": "cc9641fa-daf1-4655-b94a-ad6497e70df1"
+                            "name": "MyNumberColumn",
+                            "designerId": "30028065-539c-4d47-85ba-3a46d217f936"
                         },
                         {
-                            "type": "Ext.grid.column.Column",
+                            "type": "Ext.grid.column.Date",
                             "reference": {
                                 "name": "columns",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "name",
-                                "text": "用户名"
+                                "dataIndex": "date",
+                                "text": "Date"
                             },
-                            "name": "MyColumn",
-                            "designerId": "8b175724-aaa3-4635-8dcb-7e3929aaa67e"
+                            "name": "MyDateColumn",
+                            "designerId": "f79acced-40c1-4462-9e47-6026cfb1ccc7"
                         },
                         {
-                            "type": "Ext.grid.column.Column",
+                            "type": "Ext.grid.column.Boolean",
                             "reference": {
                                 "name": "columns",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "password",
-                                "text": "密码"
+                                "dataIndex": "bool",
+                                "text": "Boolean"
                             },
-                            "name": "MyColumn1",
-                            "designerId": "3b4d6f71-5359-4937-b066-a06d47e6dff2"
-                        },
-                        {
-                            "type": "Ext.grid.column.Column",
-                            "reference": {
-                                "name": "columns",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "dataIndex": "email",
-                                "text": "邮箱"
-                            },
-                            "name": "MyColumn2",
-                            "designerId": "501f0ff7-f2f2-4a65-90a1-b6b16312dea5"
+                            "name": "MyBooleanColumn",
+                            "designerId": "ef5d4e93-7693-4885-ae64-2df9a57e2569"
                         },
                         {
                             "type": "Ext.grid.View",
@@ -362,11 +650,58 @@
                             },
                             "codeClass": null,
                             "name": "MyGridView",
-                            "designerId": "03b2c7bb-4ad5-45ed-a768-1d88b99c92cb"
+                            "designerId": "d83f81c0-ac3d-43c3-8006-eca36f4819fa"
                         }
                     ]
                 }
             ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyBorder": false,
+                "bodyStyle": [
+                    "solid 2px #f00"
+                ],
+                "collapseDirection": "left",
+                "collapsible": true,
+                "designer|uiInterfaceName": "default",
+                "header": false,
+                "id": "menuContainer",
+                "layout": "fit",
+                "layout|region": "west",
+                "layout|split": true,
+                "title": "",
+                "width": 300
+            },
+            "name": "MyPanel2",
+            "designerId": "50e44dc0-3cb2-43f5-8350-b4e84f99db77"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMainViewAfterRender",
+                "implHandler": [
+                    "var container = Ext.getCmp('menuContainer');",
+                    "     container.removeAll();",
+                    "     var menu=new MyApp.view.xcglpanel();",
+                    "     container.add(menu);"
+                ],
+                "name": "afterrender",
+                "scope": "me"
+            },
+            "name": "onMainViewAfterRender",
+            "designerId": "22869d03-7ecb-479e-8ffc-31d23109c3ad"
         }
     ]
 }

@@ -15,5 +15,20 @@
 
 Ext.define('MyApp.view.MainViewViewController', {
     extend: 'Ext.app.ViewController',
-    alias: 'controller.mainview'
+    alias: 'controller.mainview',
+
+    onButtonClick: function(button, e, eOpts) {
+        var container = Ext.getCmp('menuContainer');
+        container.removeAll();
+        var menu=new MyApp.view.xcglpanel();
+        container.add(menu);
+    },
+
+    onButtonClick1: function(button, e, eOpts) {
+        var container = Ext.getCmp('menuContainer');
+        container.removeAll();
+        var menu=new MyApp.view.xcdhpanel();
+        container.add(menu);
+    }
+
 });

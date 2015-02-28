@@ -21,13 +21,27 @@ Ext.Loader.setConfig({
 
 Ext.application({
     models: [
-        'usersModel'
+        'guiJIReuslutModel'
     ],
     stores: [
-        'usersStore'
+        'xingZhengQuStore',
+        'guiJIResult',
+        'xingzhengqu',
+        'zfdwStore',
+        'zfryStore'
     ],
     views: [
-        'MainView'
+        'MainView',
+        'xcglpanel',
+        'xcdhpanel',
+        'zfwl',
+        'dbfx',
+        'tjbb',
+        'xzq',
+        'xtgl',
+        'help',
+        'tudihechaWin',
+        'dikuaifenxiWin'
     ],
     name: 'MyApp',
 
